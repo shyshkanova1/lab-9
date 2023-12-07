@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab9</title>
+</head>
+<body>
+<h1>Player vs Computer</h1>
+<div class="main">
+ <div id="game-container"class="game-container">
+        <div id="user-box" class="player-box">
+            <h3 id="username">Player's name</h3>
+            <div id="user-score">Score: 0</div>
+            <div id="user-card" class="card"></div>
+        </div>
+        <div id="computer-box" class="computer-box">
+            <h3>Computer</h3>
+            <div id="computer-score">Score: 0</div>
+            <div id="computer-card" class="card"></div>
+        </div>
+    </div>
+	<div id="round-info">Attempt 0 of 3</div>
+        <button class="click" onclick="generate()">Generate</button>
+	<div id="winner"></div><br>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
